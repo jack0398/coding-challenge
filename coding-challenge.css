@@ -1,0 +1,77 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+/* sfondo in background */
+body{
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Background contenitore semitrasparente  */
+article{
+  background-color: #0000006e;
+  width: 800px;
+  height:550px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5%;
+  text-align: center;
+}
+/* Logo*/
+header.logo>a img{
+  width: 150px;
+  margin-top: 50px;
+}
+article h2{
+  color: #00dc00;
+}
+.button-class{
+  width: 650px;
+  margin:auto;
+  background-color: #00dc00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Parte utenti */
+main {
+  text-align: left;
+  margin-left: 73px;
+}
+div.utente-disponibile{
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.distanza-km {
+  font-size: 13px;
+  color: #ffffff9c;
+  font-family: sans-serif;
+}
+.stato-batteria {
+  font-size: 13px;
+  color: #ffffff9c;
+  font-family: sans-serif;
+}
+/* barre di carica */
+div.barra-batteria1{
+  background-color: #e4a93d;
+  width: 230px;
+  height: 25px;
+  border-radius: 5px;
+}
+div.barra-batteria2{
+  background-color:#1aa51b;
+  width: 330px;
+  height: 25px;
+  border-radius: 5px;
+}
+div.barra-batteria3{
+  background-color:#b72626;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+}
